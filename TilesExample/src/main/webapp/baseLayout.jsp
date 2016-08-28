@@ -10,7 +10,7 @@
 <title><tiles:insertAttribute name="title" ignore="true" /></title>
 </head>
 <body class="container">
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-fixed-top my-nav">
 		<div class="container">
 			<div class="navbar-header">
 				<tiles:insertAttribute name="banner" />
@@ -24,7 +24,7 @@
 	<div class="container-fluid text-center margin">
 		<tiles:insertAttribute name="body" />
 	</div>
-	<nav class="navbar navbar-fixed-bottom">
+	<nav class="navbar navbar-inverse my-nav navbar-fixed-bottom">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<tiles:insertAttribute name="footer" />
